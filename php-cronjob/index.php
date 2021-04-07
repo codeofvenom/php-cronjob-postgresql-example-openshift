@@ -11,9 +11,7 @@
         <th>No</th>
 		<th>User ID 	</th>
         <th>Username	</th>
-	    <th>Password	</th>
 		<th>Email		</th>
-	    <th>Condition	</th>
 		<th>kode		</th>
 		<th>Created On	</th>
       </tr>
@@ -33,9 +31,7 @@
 		<td><?php echo $no;?></td> 
 		<td><?php echo $data["user_id"]; ?>		</td> 
 		<td><?php echo $data["username"]; ?>	</td> 
-		<td><?php echo $data["password"]; ?>	</td> 
 		<td><?php echo $data["email"]; ?>		</td> 
-		<td><?php echo $data["condition"]; ?>	</td>
 		<td><?php echo $data["kode"]; ?>		</td> 
 		<td><?php echo $data["created_on"]; ?>	</td> 
            </tr>
